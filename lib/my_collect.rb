@@ -5,7 +5,7 @@ def my_collect(args)
     new_array << yield args[i]
     i += 1 
   end
-  args
+  new_array
 end
     
 
